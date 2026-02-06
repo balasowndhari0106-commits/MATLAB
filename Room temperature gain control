@@ -1,0 +1,10 @@
+clc;clear;
+T=30;
+Tref=24;
+Gref=10;
+k=0.1;
+Gain=Gref-k*(T-Tref);
+x=2;
+y=Gain*x;
+disp(Gain)
+disp(y)
